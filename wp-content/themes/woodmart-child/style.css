@@ -1,0 +1,38 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+/*** Estilo para el color de los precios de la tienda ***/
+.color-scheme-light .amount, .woodmart-dark .amount {
+    color: #f2e448 !important;
+}
+td.product-subtotal span {
+    color: #777 !important;
+}
+tr.order-total strong .amount {
+	color: #777 !important;
+}
+span.woocommerce-Price-amount.amount {
+    color: #777 !important;
+}
+.price span.woocommerce-Price-amount.amount {
+    color: #f2e448 !important;
+}
+span.quantity span.woocommerce-Price-amount.amount {
+    color: #f2e448 !important;
+}
+p.woocommerce-mini-cart__total.total span.woocommerce-Price-amount.amount {
+    color: #f2e448 !important;
+}
+/*** Estilo para el color de los precios de la tienda ***/
+
+/*** Ocultar check de newsletter ***/
+p#ce4wp_checkout_consent_checkbox_field {
+    display: none;
+}
